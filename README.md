@@ -25,18 +25,18 @@ pip install -r requirements.txt
 
 ## Usage
 
-1. Ensure that you have downloaded the MNIST dataset. You can find it [here](http://yann.lecun.com/exdb/mnist/).
+1. Install the requirements file.
 
-2. Run the `train.py` script to train the CNN model.
+2. Run the `main.py` script to directly see the web app.
 ```
-python train.py
+python main.py
 ```
 
-3. Once the training is complete, you can run the `MNIST_Digit_Recognition.jpynb` script to classify handwritten digit images.
+3. Once the `main.py ` will execute, you can test it by giving images to the model.
 ```
-MNIST_Digit_Recognition.jpynb image_path
+MNIST_Digit_Recognition.jpynb
 ```
-Replace `image_path` with the path to the image you want to classify.
+otherwise run the jupyter notebook shown above for more insights of the model.
 
 ## Model Architecture
 
